@@ -6,7 +6,7 @@
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
-		"start": "node back-end/server",
+		"start": "node server",
 		"server": "nodemon server",
 		"dev": "concurrently \"npm run server\" \"npm run client\""
 	},
