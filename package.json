@@ -1,9 +1,7 @@
 {
 	"name": "proshop",
 	"version": "1.0.0",
-	"engines": {
-		"node": "14.15.3"
-	},
+	
 	"description": "shop api",
 	"main": "main.js",
 	"type": "module",
