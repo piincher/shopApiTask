@@ -8,7 +8,9 @@
 	"scripts": {
 		"start": "node server",
 		"server": "nodemon server",
-		"dev": "concurrently \"npm run server\" \"npm run client\""
+		"dev": "concurrently \"npm run server\" \"npm run client\"",
+		"data:import": "node seeder.js",
+		"data:destroy": "node seeder.js -d"
 	},
 	
 	"author": "Ibrahim kouma",
