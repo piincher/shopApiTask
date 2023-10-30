@@ -22,7 +22,9 @@ app.use(express.json());
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
 app.get("/", (req, res) => {
-  res.send("API is running...");
+ res.status(200).json({
+   message: "Welcome to the API",
+ });
 })
 app.use(notFound);
 app.use(errorHandler);
